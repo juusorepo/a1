@@ -1,0 +1,36 @@
+---
+title: "School adjustment among adolescence..."
+author: "Juuso Repo"
+output:
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_depth: 2
+    fig_caption: true
+    fig_width: 6
+    fig_height: 4
+---
+
+# The paper, codebook and data setup
+
+* Data setup code [here](datasetup A1.R).
+* Codebook for the variables [here](codebook coronaspring.xlsx).
+* Github repository for the files [here](https://github.com/juusorepo/a1).
+* The paper in progress here.
+
+***
+  
+```#{r child = "A1.Rmd"}
+```
+  
+***
+  
+```#{r child = "explore clusters.Rmd"}
+```
+
+***
+
+```#{r child = "A1 scales.Rmd"}
+```
+
+***
